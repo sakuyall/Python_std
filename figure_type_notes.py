@@ -1,19 +1,19 @@
 # figure_type_notes-1/3/25-------------------------------------------------------
-# import decimal
-# a = decimal.Decimal('0.1')                #实例化对象,精确打印浮点数
-# b = decimal.Decimal('0.2')
-# print(a + b)
+import decimal
+a = decimal.Decimal('0.1')                #实例化对象,精确打印浮点数
+b = decimal.Decimal('0.2')
+print(a + b)
 
-# x = 1 + 2j                                #复数表达
-# print(x.real)
-# complex(1 + 2j)
+x = 1 + 2j                                #复数表达
+print(x.real)
+complex(1 + 2j)
 
-# divmod(x,y)                                #返回地板除商与余数
-# abs()                                      #绝对值
-# pow(x,y)                                   #x的y次方,等同于‘x**y’
+divmod(x,y)                                #返回地板除商与余数
+abs()                                      #绝对值
+pow(x,y)                                   #x的y次方,等同于‘x**y’
 
-# bull(250)                                  #布尔类型，仅有true&false，用于分支循环判断
-# bull('false') == true,bull(false) == false 
+bull(250)                                  #布尔类型，仅有true&false，用于分支循环判断
+bull('false') == true,bull(false) == false 
 # 应区分字符串与空,等值于0才为false
 # 如none,false,0，0.0,demical(0),fraction(0),空的序列与集合(){}[],set(),range()
 

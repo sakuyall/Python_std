@@ -27,14 +27,14 @@ level = ("F" if 0 <= score <60 else
          "plese enter the correct format!")
 print(level)
 
-# a = 3
-# b = 2
-# small = 0
-# if a > b:
-#     small = b
-# else:
-#     small = a
-# print(small)
+a = 3
+b = 2
+small = 0
+if a > b:
+    small = b
+else:
+    small = a
+print(small)
 
-# small = a if a < b else b   ## here is b , not small = b! 
-# print(small)
+small = a if a < b else b   ## here is b , not small = b! 
+print(small)
